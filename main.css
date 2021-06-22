@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: "Inter", Arial, "Helvetica Neue", "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #343a40;
+    text-align: left;
+    background-color: #fff;
+}
+
+.logo {
+    width: 90px;
+    height: 56px;
+}
+
+    /* --header-- */
+
+.header-main {
+            position: relative;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+         }
+
+         .border-bottom {
+            border-bottom: 1px solid #e4e4e4;
+        }
+        article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+            display: block;
+        }
+        
+@media (min-width: 1200px)
+        .container {
+            max-width: 1200px;
+}
+
+@media (min-width: 992px)
+        .container {
+            max-width: 960px;
+}
+
+@media (min-width: 768px)
+        .container {
+            max-width: 720px;
+}
+
+@media (min-width: 576px)
+        .container {
+            max-width: 540px;
+}
+        
+.container {
+            width: 100%;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-right: auto;
+            margin-left: auto;
+}

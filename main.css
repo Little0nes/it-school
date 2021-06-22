@@ -28,25 +28,25 @@ body {
         article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
             display: block;
         }
-        
-@media (min-width: 1200px)
-        .container {
-            max-width: 1200px;
+
+        @media (min-width: 1200px)
+.container {
+        max-width: 1200px;
 }
 
 @media (min-width: 992px)
-        .container {
-            max-width: 960px;
+.container {
+    max-width: 960px;
 }
 
 @media (min-width: 768px)
-        .container {
-            max-width: 720px;
+.container {
+    max-width: 720px;
 }
 
 @media (min-width: 576px)
-        .container {
-            max-width: 540px;
+.container {
+    max-width: 540px;
 }
         
 .container {
@@ -55,4 +55,43 @@ body {
             padding-left: 10px;
             margin-right: auto;
             margin-left: auto;
+}
+
+div {
+    display: block;
+}
+
+/* icons and buttons */ 
+
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+a {
+    color: #3167eb;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* navbar */ 
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
 }
